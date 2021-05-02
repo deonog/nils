@@ -47,7 +47,7 @@
 
 -------------------------------------------------------*/
 /*Importing Font*/
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Montserrat:200,300,400,400i,500,500i,600,700,800,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap|Montserrat:200,300,400,400i,500,500i,600,700,800,900&amp;display=swap");
 /* ....................................
 1. Preloader css
 .......................................*/
@@ -72,7 +72,7 @@ body {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.4px;
+  letter-spacing: 1px;
 }
 
 body,
@@ -170,7 +170,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 26px;
@@ -1433,7 +1434,7 @@ p.big-p {
   margin-top: 10px;
   text-align: center;
   border-radius: 50%;
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
   font-size: 17px;
   font-weight: 900;
 }
@@ -2411,7 +2412,7 @@ p.big-p {
 }
 
 .block-quote p {
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
 }
 
 .check-list-2.square-check li:before {
@@ -2729,12 +2730,12 @@ li:last-child .other-dervices {
 }
 
 .block-quote-text p {
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
 }
 
 .block-quote-by {
   display: inline-block;
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
   font-weight: bold;
   padding-left: 35px;
   position: relative;

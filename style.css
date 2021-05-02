@@ -2,7 +2,7 @@
  * Font Awesome Free 5.8.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i|Montserrat:200,300,400,400i,500,500i,600,700,800,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap|Montserrat:200,300,400,400i,500,500i,600,700,800,900&amp;display=swap");
 .fa, .fab, .fal, .far, .fas {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -9300,7 +9300,7 @@ body {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.4px;
+  letter-spacing: 1px;
 }
 
 body,
@@ -9398,7 +9398,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 26px;
@@ -10661,7 +10662,7 @@ p.big-p {
   margin-top: 10px;
   text-align: center;
   border-radius: 50%;
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
   font-size: 17px;
   font-weight: 900;
 }
@@ -11639,7 +11640,7 @@ p.big-p {
 }
 
 .block-quote p {
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
 }
 
 .check-list-2.square-check li:before {
@@ -11957,12 +11958,12 @@ li:last-child .other-dervices {
 }
 
 .block-quote-text p {
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
 }
 
 .block-quote-by {
   display: inline-block;
-  font-family: "Merriweather", serif;
+  font-family: "Bebas Neue", serif;
   font-weight: bold;
   padding-left: 35px;
   position: relative;
@@ -14109,7 +14110,6 @@ button,
 6. bg blue
 .......................................*/
 .bg-blue,
-.slider-area[data-overlay]::before,
 .btn-round:hover,
 .btn-square:hover,
 .btn-round-border:hover,
@@ -14123,7 +14123,6 @@ button,
 .btn-square-green:hover,
 .experience-cta[data-overlay]::before,
 .line-before:before,
-.transperant-head.fixed-nav,
 .service-3[data-overlay]::before,
 .btn-square-blue,
 .testimonial-3[data-overlay]::before,
@@ -14132,6 +14131,10 @@ button,
 .price-tag,
 .input-white + .input-group-append .btn:hover {
   background: #0e0e52;
+}
+
+.slider-area[data-overlay]::before {
+  background: #000000;
 }
 
 /*blue bg opacity classes*/
@@ -14457,6 +14460,18 @@ button,
 
 .copyright {
   background-color: #131c26;
+}
+
+/* ....................................
+14. custom
+.......................................*/
+.transperant-head.fixed-nav {
+  background: #ffffff !important;
+}
+
+.transperant-head.fixed-nav h1,
+.transperant-head.fixed-nav .search-icon {
+  color: #0e0e52 !important;
 }
 
 /*end*/
