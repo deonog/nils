@@ -1,0 +1,42 @@
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo--footer {
+  width: 120px;
+  height: 120px;
+}
+
+.logo__inner {
+  width: 100%;
+}
+
+.logo__inner img {
+  width: 100%;
+}
+
+.icon-box i {
+  font-size: 3rem;
+}
+
+.references .icon img {
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+@media screen and (min-width: 992px) {
+  .references .icon img:hover {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+    cursor: default;
+  }
+}
+/*# sourceMappingURL=custom.css.map */

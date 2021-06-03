@@ -1214,7 +1214,7 @@ p.big-p {
 .......................................*/
 .service-box {
   background-color: #fff;
-  padding: 50px 40px;
+  padding: 50px 40px 46px 40px;
 }
 
 .service-icon {
@@ -1264,11 +1264,6 @@ p.big-p {
 
 .service-box.img-lined:hover:before {
   opacity: 1;
-}
-
-.service-box:hover .service-text h4,
-.service-box:hover .service-text p {
-  color: #fff;
 }
 
 .service-box:hover .service-icon-bg {
@@ -2174,7 +2169,7 @@ p.big-p {
 }
 
 .contact-options li {
-  color: #abb3bb;
+  color: #ffffff;
   position: relative;
   padding-left: 25px;
   line-height: 2.6;
@@ -2194,18 +2189,22 @@ p.big-p {
 }
 
 .social-links li a {
-  width: 32px;
-  height: 32px;
-  display: inline-block;
+  width: 48px;
+  height: 48px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   position: relative;
   margin: 0;
   margin-right: 5px;
   border-radius: 50%;
-}
-
-.social-links li a i {
-  padding-top: 9px;
 }
 
 .social-links li a:hover i {
@@ -2224,7 +2223,7 @@ p.big-p {
 
 .links-list a {
   position: relative;
-  color: #abb3bb;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   padding-left: 0px;

@@ -1,0 +1,40 @@
+.logo {
+  width: 60px;
+  height: 60px;
+
+  &--footer {
+    width: 120px;
+    height: 120px;
+  }
+
+  &__inner {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.icon-box {
+  i {
+    font-size: 3rem;
+  }
+}
+
+.references {
+  .icon {
+    img {
+      margin: 0 auto;
+      text-align: center;
+      height: 200px;
+      transition: filter 0.3s ease;
+      filter: grayscale(100%);
+      @media screen and (min-width: 992px) {
+        &:hover {
+          filter: grayscale(0);
+          cursor: default;
+        }
+      }
+    }
+  }
+}

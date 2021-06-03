@@ -10442,7 +10442,7 @@ p.big-p {
 .......................................*/
 .service-box {
   background-color: #fff;
-  padding: 50px 40px;
+  padding: 50px 40px 46px 40px;
 }
 
 .service-icon {
@@ -10492,11 +10492,6 @@ p.big-p {
 
 .service-box.img-lined:hover:before {
   opacity: 1;
-}
-
-.service-box:hover .service-text h4,
-.service-box:hover .service-text p {
-  color: #fff;
 }
 
 .service-box:hover .service-icon-bg {
@@ -11402,7 +11397,7 @@ p.big-p {
 }
 
 .contact-options li {
-  color: #abb3bb;
+  color: #ffffff;
   position: relative;
   padding-left: 25px;
   line-height: 2.6;
@@ -11422,18 +11417,22 @@ p.big-p {
 }
 
 .social-links li a {
-  width: 32px;
-  height: 32px;
-  display: inline-block;
+  width: 48px;
+  height: 48px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   position: relative;
   margin: 0;
   margin-right: 5px;
   border-radius: 50%;
-}
-
-.social-links li a i {
-  padding-top: 9px;
 }
 
 .social-links li a:hover i {
@@ -11452,7 +11451,7 @@ p.big-p {
 
 .links-list a {
   position: relative;
-  color: #abb3bb;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   padding-left: 0px;
@@ -14072,7 +14071,6 @@ button,
 .input-white:hover + i,
 .input-white:focus + i,
 .each-blog:hover .blog-text h6 a,
-.links-list a:hover,
 .input-search + i,
 .scroll-btn:hover,
 .btn-square-border,
@@ -14092,7 +14090,11 @@ button,
 .week-count h1,
 .case-quote a,
 .sub-2:after {
-  color: #449dd1;
+  color: #19172f;
+}
+
+.links-list a:hover {
+  color: #ffffff;
 }
 
 /* ....................................
@@ -14113,7 +14115,6 @@ button,
 .btn-round:hover,
 .btn-square:hover,
 .btn-round-border:hover,
-.service-box:hover .btn-round,
 .btn-blue,
 .team-each:hover .team-image.img-lined:before,
 .arrow-navigation .nav-slide:hover,
@@ -14186,8 +14187,6 @@ button,
 .btn-square,
 .slide-div .owl-dots .owl-dot.active,
 .callback-area[data-overlay]::before,
-.service-box:hover,
-.service-box:hover .service-icon-bg,
 .plus-btn,
 .arrow-navigation .nav-slide,
 .btn-round-blue:hover,
@@ -14199,7 +14198,6 @@ button,
 .each-blog:hover .blog-date,
 .contact-area:before,
 .social-links li a:hover,
-.links-list a:before,
 .scroll-btn,
 .dots-slider .owl-dot.active,
 .slide-social li a:hover,
@@ -14228,7 +14226,11 @@ button,
 .portfolio-overlay:before,
 .line-right:after,
 .experience li:after {
-  background: #449dd1;
+  background: #19172f;
+}
+
+.links-list a:before {
+  color: #ffffff;
 }
 
 /*green bg opacity classes*/
@@ -14394,17 +14396,17 @@ button,
 .icon-box-icon,
 .partner:hover .partner-logo,
 .thank-icon {
-  border-color: #449dd1;
+  border-color: #19172f;
 }
 
 /*border left color*/
 .client-count:after {
-  border-left-color: #449dd1;
+  border-left-color: #19172f;
 }
 
 /*border topcolor*/
 .partner:hover .partner-logo:after {
-  border-top-color: #449dd1;
+  border-top-color: #19172f;
 }
 
 /* ....................................
@@ -14474,5 +14476,54 @@ button,
   color: #0e0e52 !important;
 }
 
+.slider-area .line-head {
+  color: #ffffff;
+}
+
+.slider-area .line-head .line {
+  background-color: #ffffff;
+}
+
 /*end*/
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo--footer {
+  width: 120px;
+  height: 120px;
+}
+
+.logo__inner {
+  width: 100%;
+}
+
+.logo__inner img {
+  width: 100%;
+}
+
+.icon-box i {
+  font-size: 3rem;
+}
+
+.references .icon img {
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+@media screen and (min-width: 992px) {
+  .references .icon img:hover {
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+    cursor: default;
+  }
+}
 /*# sourceMappingURL=style.css.map */
